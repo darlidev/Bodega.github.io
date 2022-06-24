@@ -1,0 +1,440 @@
+
+/*Iconos página https://css.gg/ */
+@import url('https://css.gg/heart.css');
+
+
+
+/*variables*/
+:root{
+    /*Colores*/
+    --dark:#0A123E;
+    -dark-x:#07201F;
+    --primary:#29D884;
+    --primary-x:#00BE65;
+    --secondary:#FF692E;
+    --terciary:#027A48;
+    --muted:#BABDCC;
+    --light:#fff;
+    --grey:#FAFBFD;
+    --grey-x:#ECFDF3;
+    --yellow:#FFE598;
+    --light-blue:#E1FFF1;
+    --red:#FF1100;
+    --red-x:#FFE8E8;
+
+/*tipografia*/
+    --paragraph:1.125rem;
+    --h3:1.5rem;
+    --subtitulo:0.875rem;
+    --text-xs-medium:0.75rem;
+    --displat-sm:1.875rem;
+    --mainFont:'Inter';
+    --bold:500;
+    --h1:3rem;
+    --medium:600;
+
+}
+
+body{
+    background-color: white;
+
+    font-family:var(--mainFont);
+    color:var(--dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--grey)!important;
+    
+}
+
+/*navbar*/
+.navbar{
+    min-height:9.563rem;
+}
+
+i{
+    color: var(--muted) ;
+}
+
+
+/*input buscar*/
+.form-control, .input-group .position-absolute+.password-toggle .form-control{
+    padding-left: 2.5rem;
+  
+    width: 15.25rem;
+    
+}
+
+
+
+/*link de ubicación*/
+.gg-pin{
+    color:var(--secondary);
+}
+
+.text-secondary{
+    color: var(--secondary)!important;
+}
+
+
+.text-terciary{
+    color: var(--terciary)!important;
+  
+}
+
+/*buttons iniciar sesion*/
+.btn-primary{
+    background-color: var(--primary)!important;
+    border-color: var(--primary)!important;
+}
+.btn-primary:hover{
+    background-color: var(--primary-x)!important;
+    border-color: var(--primary)!important;
+}
+.btn-secondary{
+    background-color: var(--secondary)!important;
+    border-color: var(--secondary)!important;
+}
+
+.btn-sm{
+    padding: .625rem 1.25rem;
+    font-size: var(--paragraph);
+    border-radius:0.5rem;
+  
+}
+
+
+/*button carrito*/
+.shopping{
+    background-color:var(--light-blue);
+    padding:1rem;
+    width: 53px;
+}
+
+
+
+
+
+
+
+
+
+/*Section Hero*/
+
+.bg-warning{
+    background-color: var(--yellow)!important;
+}
+
+section{
+    padding:6.25rem 0;
+}
+
+
+.btn-danger{
+    background-color: var(--red)!important;
+}
+
+
+
+h1{
+    font-size: var(--h1);
+}
+
+.input-group{
+    height:3.563rem;
+}
+
+
+
+
+
+
+
+/*Section Carrousel productos*/
+
+.fw-medium{
+    font-weight: var(--medium);
+}
+
+.oferta{
+    background-color: var(--grey-x);
+    width: 87.2px;
+    height:27px;
+    border-radius: 14px;
+    color: var(--terciary);
+    font-weight: 400;
+}
+.pack{
+    background-color: var(--red-x);
+    width: 87.2px;
+    height:27px;
+    border-radius: 14px;
+    color: var(--red);
+    font-weight: 400;
+}
+
+.card{
+    border-color: 1px solid #BABDCC;
+    width: 15.5rem;
+    -webkit-transition:width 800ms ease;
+}
+
+
+.card-group{
+    padding: 1.320rem 0;
+
+}
+
+.arrows ion-icon{
+    cursor: pointer;
+}
+
+
+
+/*Section links de compra*/
+
+.item-1{
+    background-image: url(../assets/images/images-products/banner\ 01.png);
+    border-radius: 8px;
+    color:white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height:10.313rem;
+    width: 100%;
+}
+
+.item-2{
+    background-image: url(../assets/images/images-products/banner\ 02.png);
+    border-radius: 8px;
+    color:white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height:10.313rem;
+    width: 100%;
+}
+
+
+
+
+
+.text-primary{
+    color: var(--primary)!important;
+}
+
+
+
+
+
+/*Seccion Nuestra Historia*/
+.historia{
+    background-image: url(../assets/images/images-products/banner\ 03.png);
+    height:25rem;
+    border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
+    height:25rem;
+    width: 100%;
+}
+
+.btn-outline-light{
+    border-color: var(--light)!important;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size:1rem;
+    font-weight:400
+   
+}
+.btn-outline-light:hover{
+    border-color: var(--light)!important;
+    background-color: var(--light)!important;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size:1rem;
+    font-weight:400
+   
+}
+
+
+
+ @media (max-width: 449px){
+     .historia{
+        height:14rem;
+        width: 100%;
+        margin-left:1rem;
+        margin-right:1rem;
+     }
+ }
+ 
+
+
+
+
+
+
+
+/*Seccion trabaja con nosotros*/
+
+.btn-outline-dark{
+    border-color: var(--dark-x)!important;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    font-size:1rem;
+    font-weight:400
+   
+}
+.btn-outline-dark:hover{
+    border-color: var(--dark-x)!important;
+    background-color: var(--dark)!important;
+    border-radius: 0.5rem;
+    font-size:1rem;
+    font-weight:400
+   
+}
+
+
+
+/*Seccion items*/
+
+.bg-yellow{
+    background-color: var(--yellow); 
+}
+
+article{
+
+}
+
+/*Footer*/
+
+.bg-light-blue{
+    background-color: var(--light-blue);
+}
+
+.bg-dark-x{
+    background: #07201F;
+}
+.Suscribete{
+    max-width:  600px;
+}
+
+
+hr{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ancho del modal categorias*/
+@media (min-width: 390px) {
+.offcanvas-start{
+    width:300px;
+}
+
+}
+
+@media (min-width:760px) {
+    
+
+.offcanvas-start{
+    width:500px;
+}
+
+}
+
+
+
+
+
+
+
+/*En una pantalla de 592 hacia abajo se achica la imagen*/
+@media (max-width:766px) {
+    
+
+    .producto{
+        width:190px;
+    }
+   
+
+    
+    }
+    
+@media (min-width:588px){
+    .card-1{
+        background-color: var(--red-x);
+        max-width:2rem 1rem;
+       
+    }
+}
+
+
+input:focus, select:focus, select, input.form-control:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+
+    border-color: var(--primary);
+
+}
+
+.btn:focus, .btn-close{
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none!important;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+}
